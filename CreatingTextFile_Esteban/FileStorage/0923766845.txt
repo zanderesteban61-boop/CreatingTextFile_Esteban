@@ -1,0 +1,9 @@
+Student Number: 0923766845
+Last Name: ESTEBAN
+First Name: ALEXZANDER
+Middle Name: a
+Gender: MALE
+Birthday: 7 Nov 2025
+Program: BSIT
+Contact No: 0985676577
+Age: 21
