@@ -9,9 +9,12 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace CreatingTextFile_Esteban
+    
 {
+    
     public partial class FrmFileName : Form
     {
+        public static string SetFileName;
         public FrmFileName()
         {
             InitializeComponent();
@@ -19,7 +22,8 @@ namespace CreatingTextFile_Esteban
 
         private void btnOkay_Click(object sender, EventArgs e)
         {
-
+            SetFileName = txtFileName.Text + ".txt";
+            this.Close();
         }
     }
 }
