@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace CreatingTextFile_Esteban
 {
-    public partial class Form1 : Form
+    public partial class FrmFileName : Form
     {
-        public Form1()
+        public FrmFileName()
         {
             InitializeComponent();
         }
 
-        private void btnCreate_Click(object sender, EventArgs e)
+        private void btnOkay_Click(object sender, EventArgs e)
         {
 
         }

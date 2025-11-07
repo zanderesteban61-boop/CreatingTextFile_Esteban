@@ -28,13 +28,47 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.txtInput = new System.Windows.Forms.RichTextBox();
+            this.btnCreate = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // txtInput
+            // 
+            this.txtInput.Location = new System.Drawing.Point(123, 60);
+            this.txtInput.Name = "txtInput";
+            this.txtInput.Size = new System.Drawing.Size(354, 180);
+            this.txtInput.TabIndex = 7;
+            this.txtInput.Text = "";
+            // 
+            // btnCreate
+            // 
+            this.btnCreate.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnCreate.Font = new System.Drawing.Font("Agency FB", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnCreate.Location = new System.Drawing.Point(177, 274);
+            this.btnCreate.Name = "btnCreate";
+            this.btnCreate.Size = new System.Drawing.Size(250, 45);
+            this.btnCreate.TabIndex = 6;
+            this.btnCreate.Text = "Create ";
+            this.btnCreate.UseVisualStyleBackColor = false;
+            this.btnCreate.Click += new System.EventHandler(this.btnCreate_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(602, 360);
+            this.Controls.Add(this.txtInput);
+            this.Controls.Add(this.btnCreate);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.RichTextBox txtInput;
+        private System.Windows.Forms.Button btnCreate;
     }
 }
 
